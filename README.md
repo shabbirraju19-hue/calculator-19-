@@ -1,1 +1,83 @@
-["Calculator](https://img.shields.io/badge/HTML-CSS-JS-blue) ![License](https://img.shields.io/badge/license-MIT-green)\n\n## Demo\n\nOpen `index.html` in your web browser to start using the calculator.\n\n## How It Works\n\nThe calculator maintains state for:\n- `currentValue` - The number currently being entered\n- `previousValue` - The first operand for calculations\n- `operation` - The selected operator (+, -, *, /)\n- `shouldResetDisplay` - Flag to reset display after calculation\n\n### Usage\n\n1. Click number buttons (0-9) to input values\n2. Click operators (+, -, \u00d7, \u00f7) to perform calculations\n3. Click `=` to see the result\n4. Click `C` to clear everything\n5. Click `DEL` to remove the last digit\n\n## File Structure\n\n```\nsimple-calculator/\n\u251c\u2500\u2500 index.html    # Calculator UI structure\n\u251c\u2500\u2500 styles.css    # Styling and animations\n\u251c\u2500\u2500 script.js     # Calculator logic\n\u2514\u2500\u2500 README.md     # This file\n```\n\n## Tech Stack\n\n- **HTML5** - Semantic markup\n- **CSS3** - Flexbox, Grid, gradients, transitions\n- **JavaScript (ES6)** - DOM manipulation, event handling\n\n## Installation\n\nNo installation required! Simply download the files and open `index.html` in any modern web browser.\n\n```bash\n# Clone this repository\ngit clone https://github.com/shabbirraju19-hue/simple-calculator.git\ncd simple-calculator\n\n# Open in browser\nopen index.html  # macOS\nstart index.html # Windows\nxdg-open index.html # Linux\n```\n\n## Browser Support\n\n- \u2705 Chrome (latest)\n- \u2705 Firefox (latest)\n- \u2705 Safari (latest)\n- \u2705 Edge (latest)\n- \u2705 Mobile browsers\n\n## Contributing\n\nContributions are welcome! Feel free to:\n- Report bugs\n- Suggest new features\n- Submit pull requests\n\n## License\n\nThis project is open source and available under the [MIT License](LICENSE).\n\n## Author\n\nCreated with \u2764\ufe0f using vanilla web technologies.\n\n---\n\n**Note:** This is a lightweight, educational project demonstrating fundamental JavaScript concepts."]
+# Simple Calculator
+
+![HTML-CSS-JS](https://img.shields.io/badge/HTML-CSS-JS-blue) ![License](https://img.shields.io/badge/license-MIT-green)
+
+## Demo
+
+Open `index.html` in your web browser to start using the calculator.
+
+## How It Works
+
+The calculator maintains state for:
+
+- `currentValue` - The number currently being entered
+- `previousValue` - The first operand for calculations
+- `operation` - The selected operator (+, -, *, /)
+- `shouldResetDisplay` - Flag to reset display after calculation
+
+### Usage
+
+1. Click number buttons (0-9) to input values
+2. Click operators (+, -, ×, ÷) to perform calculations
+3. Click `=` to see the result
+4. Click `C` to clear everything
+5. Click `DEL` to remove the last digit
+
+## File Structure
+
+```
+simple-calculator/
+├── index.html    # Calculator UI structure
+├── styles.css    # Styling and animations
+├── script.js     # Calculator logic
+└── README.md     # This file
+```
+
+## Tech Stack
+
+- **HTML5** - Semantic markup
+- **CSS3** - Flexbox, Grid, gradients, transitions
+- **JavaScript (ES6)** - DOM manipulation, event handling
+
+## Installation
+
+No installation required! Simply download the files and open `index.html` in any modern web browser.
+
+```bash
+# Clone this repository
+git clone https://github.com/shabbirraju19-hue/calculator-19-.git
+cd calculator-19-
+
+# Open in browser
+open index.html  # macOS
+start index.html # Windows
+xdg-open index.html # Linux
+```
+
+## Browser Support
+
+- ✅ Chrome (latest)
+- ✅ Firefox (latest)
+- ✅ Safari (latest)
+- ✅ Edge (latest)
+- ✅ Mobile browsers
+
+## Contributing
+
+Contributions are welcome! Feel free to:
+
+- Report bugs
+- Suggest new features
+- Submit pull requests
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Author
+
+Created with ❤️ using vanilla web technologies.
+
+---
+
+**Note:** This is a lightweight, educational project demonstrating fundamental JavaScript concepts.
